@@ -59,7 +59,7 @@
     box-sizing: border-box;
     font-family: 'Fira sans', sans-serif;
     font-size: 16px;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .login{
