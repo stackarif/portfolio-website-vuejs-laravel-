@@ -1,2 +1,3 @@
 1. npm install vue-loader@next vue@next vue-router@nex
 2. npm i @vitejs/plugin-vue --force --save-dev
+3.sweetalert2
