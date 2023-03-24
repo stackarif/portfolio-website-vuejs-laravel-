@@ -27,44 +27,44 @@
                         </router-link>
                     </li>
                     <li class="nav_item">
-                        <a class="nav_link " href="service.html">
+                        <router-link class="nav_link " to="/admin/services">
                             <span class="nav_link--span--icon">
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
                                 Services
                             </span>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav_item">
-                        <a class="nav_link " href="skill.html">
+                        <router-link class="nav_link " to="/admin/skills">
                             <span class="nav_link--span--icon">
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
                                 Skills
                             </span>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav_item">
-                        <a class="nav_link " href="education.html">
+                        <router-link class="nav_link " to="/admin/educations">
                             <span class="nav_link--span--icon">
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
                                 Education
                             </span>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav_item">
-                        <a class="nav_link " href="experience.html">
+                        <router-link class="nav_link " to="/admin/experiances">
                             <span class="nav_link--span--icon">
                                 <i class="fas fa-home nav__link--icon"> </i>
                             </span>
                             <span class="nav_link--span--navname">
                                 Experiences
                             </span>
-                        </a>
+                        </router-link>
                     </li>
                     <li class="nav_item">
                         <a class="nav_link " href="project.html">

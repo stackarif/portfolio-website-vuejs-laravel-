@@ -14,6 +14,7 @@ class AboutController extends Controller
 
     }
     public function update_about(Request $request, $id){
+        
         $about = About::find($id);
         $this->validate($request,[
             'name' => 'required',

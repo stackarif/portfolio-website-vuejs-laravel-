@@ -76,8 +76,7 @@
  
   const updateAbout = async () =>{
     console.log('form', form);
-    
-    await axios.post(`http://127.0.0.1:8000/api/update_about/${form.value.id}`, form.value)
+    await axios.post('api/update_about/'+form.value.id, form.value)
     .then(response =>{
         toast.fire({
             icon: "success",
@@ -96,8 +95,8 @@
         <div class="main__sideNav"></div>
         <!-- Main Content -->
         <div class="main__content">
-                        <!--==================== ABOUT ====================-->
-                        <section class="about section" id="about">
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
                 <div class="about_container">
                     <div class="titlebar">
                         <div class="titlebar_item">
