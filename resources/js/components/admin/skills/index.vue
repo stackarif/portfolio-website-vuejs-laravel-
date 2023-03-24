@@ -72,7 +72,7 @@ const updateSkill = async() =>{
         closeModal()
         toast.fire({
             icon: "success",
-            title: "Skill udate successfully"
+            title: "Skill update successfully"
         })
     })
 

@@ -3,6 +3,7 @@
 use App\Http\Controllers\API\AboutController;
 use App\Http\Controllers\API\AuthController;
 use App\Http\Controllers\API\EducationController;
+use App\Http\Controllers\API\ExperianceController;
 use App\Http\Controllers\API\ServiceController;
 use App\Http\Controllers\API\SkillController;
 use App\Models\Skill;
@@ -53,6 +54,13 @@ Route::get('get_all_education',[EducationController::class,'get_all_education'])
 Route::post('create_education',[EducationController::class,'create_education']);
 Route::post('update_education/{id}',[EducationController::class,'update_education']);
 Route::get('delete_education/{id}',[EducationController::class,'delete_education']);
+
+//experance
+Route::get('get_all_experiance',[ExperianceController::class,'get_all_experiance']);
+Route::post('create_experiance',[ExperianceController::class,'create_experiance']);
+Route::post('update_experiance/{id}',[ExperianceController::class,'update_experiance']);
+Route::get('delete_experiance/{id}',[ExperianceController::class,'delete_experiance']);
+
 
 
 
